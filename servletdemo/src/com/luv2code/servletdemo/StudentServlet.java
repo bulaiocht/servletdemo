@@ -42,8 +42,8 @@ public class StudentServlet extends HttpServlet {
 		
 		String firstName = request.getParameter("firstName");
 		String lastName = request.getParameter("lastName");
-		out.println("The student is confirmed:" + firstName + " " + lastName);		
-		
+		out.println("The student is confirmed: " + firstName + " " + lastName + "<br/>");
+		out.println("<a href=\"student-form.html\">Back to form</a>");
 		out.println("</body></html>");
 		
 	}
