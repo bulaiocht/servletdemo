@@ -1,9 +1,10 @@
-package com.luv2code.servletdemo.mvcstudent;
+package com.luv2code.servletdemo.mvcstudent.model;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class StudentDataUtil {
+	
 	public static List<Student> getStudents(){
 		//create empty list
 		List<Student> students = new ArrayList<>();
@@ -16,4 +17,5 @@ public class StudentDataUtil {
 		//return list
 		return students;
 	}
+	
 }

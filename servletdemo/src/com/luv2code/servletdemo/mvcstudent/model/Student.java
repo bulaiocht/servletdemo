@@ -1,4 +1,4 @@
-package com.luv2code.servletdemo.mvcstudent;
+package com.luv2code.servletdemo.mvcstudent.model;
 
 public class Student {
 	
